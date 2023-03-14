@@ -3,6 +3,7 @@ import CodeEditor from './code-editor';
 import Preview from './preview';
 import bundle from '../bundler';
 import Resizable from './resizable';
+import React from 'react';
 
 const CodeCell = () => {
   const [code, setCode] = useState('');
